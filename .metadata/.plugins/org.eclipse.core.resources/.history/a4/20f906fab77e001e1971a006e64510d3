@@ -1,0 +1,13 @@
+import java.util.stream.LongStream;
+
+public class pro12954 {
+
+	public static void main(String[] args) {
+		int x = 2;
+		int n = 5;
+		long[] answer = LongStream.range(0, n)
+				.map(i -> x + i)
+				
+	}
+
+}

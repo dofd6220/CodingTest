@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\dofd\Desktop\자바스터디\.metadata\.plugins\org.eclipse.jdt.core
+469372242.index
+3101540342.index
+1865797976.index
+1696264553.index

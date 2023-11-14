@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class pro12985 {
+
+	public static void main(String[] args) {
+		int n = 8;
+		int a = 4;
+		int b = 7;
+		int answer = 0;
+		
+//		while(a != b) {
+//			a = (a + 1) / 2;
+//			b = (b + 1) / 2;
+//			answer++;
+//		}
+		answer = Integer.toBinaryString((a-1)^(b-1)).length();
+		System.out.println(answer);
+		
+//		먼저, 이 코드는 변수 `n`이 사용되지 않고 있습니다. 그리고 `answer` 변수는 초기화되지 않았습니다. 
+//
+//		이 코드는 두 정수 `a`와 `b`가 주어졌을 때, `a`와 `b`가 같아질 때까지 다음 과정을 반복하며 `a`와 `b`의 거리를 구하는 문제를 해결합니다.
+//
+//		```java
+//		answer = Integer.toBinaryString((a-1)^(b-1)).length();
+//		```
+//
+//		위 코드는 `a`와 `b`의 거리를 구하는 핵심 코드입니다. `^` 연산자는 XOR 연산자로, 두 비트가 다르면 1을 반환합니다. 따라서 
+//		`(a-1)^(b-1)`은 `a`와 `b`의 이진수 표현에서 다른 비트의 개수를 반환합니다. 이후 `Integer.toBinaryString()` 
+		//메소드를 이용해 이진수로 변환한 뒤, 그 길이를 반환합니다. 이렇게 하면 `a`와 `b`의 거리를 구할 수 있습니다.
+//
+//		따라서, 이 코드는 `a`와 `b`의 거리를 구하는 문제를 해결합니다.
+			
+	}
+
+}
